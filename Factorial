@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Prac {
+    public static void main(String[] args) {
+        int fact=1;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number who's factorial needs to found");
+        int n= sc.nextInt();
+        for(int i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        System.out.println("Factorial of number"+n+"is : "+ fact);
+    }
+    }
+
